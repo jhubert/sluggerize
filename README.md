@@ -1,6 +1,6 @@
 # Sluggerize
 
-A simple plugin that automatically generates a slug for a model on create. It takes care of protecting the key, automatically generating it and making sure it is unique.
+A simple plugin that automatically generates a url friendly version of a column (a slug) for a model on create.
 
 ## Usage
 
