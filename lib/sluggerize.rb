@@ -13,7 +13,7 @@ module Sluggerize
       raise ArgumentError, "#{self.name} is missing source column" if columns_hash[attr.to_s].nil?
       raise ArgumentError, "#{self.name} is missing required slug column" if columns_hash['slug'].nil?
 
-      before_validation_on_create :create_slug
+      before_validation :create_slug, :on => :create
 
       validates_presence_of :slug
       validates_uniqueness_of :slug, :allow_nil => (options[:as_param] ? true : false)
