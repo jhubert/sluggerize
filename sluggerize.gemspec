@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.authors     = ["Jeremy Hubert"]
   s.email       = ["jhubert@gmail.com"]
-  s.homepage    = ""
+  s.homepage    = "https://github.com/jhubert/sluggerize"
   s.summary     = %q{Simple library for creating a slug column from another string column}
   s.description = %q{Creates a slug from the specified column of any model.}
 
