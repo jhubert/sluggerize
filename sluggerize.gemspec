@@ -12,6 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{Simple library for creating a slug column from another string column}
   s.description = %q{Creates a slug from the specified column of any model.}
 
+  s.add_dependency "activerecord", "~> 3.0"
   s.rubyforge_project = "sluggerize"
 
   s.files         = `git ls-files`.split("\n")
